@@ -1,0 +1,13 @@
+html { box-sizing: border-box; }
+*, ::before, ::after { box-sizing: inherit; }
+
+:root {
+    --hlavni-barva: #F03000
+}
+
+body {
+    font-family: 'Montserrat', serif;
+    font-weight: 600;
+    margin: 0 20px;
+}
+

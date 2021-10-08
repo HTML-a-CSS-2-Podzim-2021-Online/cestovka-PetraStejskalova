@@ -1,0 +1,32 @@
+html { box-sizing: border-box; }
+*, ::before, ::after { box-sizing: inherit; }
+
+.hlavicka {
+    color: var(--hlavni-barva);
+    text-align: center;
+}
+.hlavicka_jmeno {
+    font-size: 2.2rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+.hlavicka__menu {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+.hlavicka__menu__polozka {
+    text-decoration: none;
+    color: var(--hlavni-barva);
+    width: calc(1/3 * 100%);
+    height: 3.5rem;
+    display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.hlavicka__menu__polozka:hover,
+.hlavicka__menu__polozka:focus {
+    background-color: var(--hlavni-barva);
+    color: white;
+}
