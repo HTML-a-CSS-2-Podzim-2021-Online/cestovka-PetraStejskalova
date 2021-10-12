@@ -1,0 +1,28 @@
+html { box-sizing: border-box; }
+*, ::before, ::after { box-sizing: inherit; }
+
+.garance {
+    margin: 2rem 0;
+}
+
+.garance__polozka > img {
+    margin: 1rem auto;
+    position: absolute;
+    left: 2.75rem;
+    transform: translateX(-50%);
+}
+
+.garance__polozka {
+    background-color: rgb(225, 225, 225);
+    padding: 0.5rem 1rem 0.5rem 5.5rem;
+    margin-bottom: 0.7rem;
+    position: relative;
+}
+
+.garance__polozka__nazev {
+    color: var(--hlavni-barva);
+}
+
+.garance__polozka__popis {
+    font-size: 0.9rem;
+}

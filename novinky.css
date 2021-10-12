@@ -1,0 +1,22 @@
+html { box-sizing: border-box; }
+*, ::before, ::after { box-sizing: inherit; }
+
+.novinky__polozka {
+    background-color: rgb(225, 225, 225);
+    font-size: 0.9rem;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+
+.novinky__polozka > p {
+    margin: 0;
+}
+
+.novinky__polozka > p:nth-child(2) {
+    margin: 0.7rem 0;
+    color: var(--hlavni-barva);
+}
+
+.novinky__polozka__datum {
+    color: gray;
+}

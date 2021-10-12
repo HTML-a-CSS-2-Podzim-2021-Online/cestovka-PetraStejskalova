@@ -1,5 +1,12 @@
-html { box-sizing: border-box; }
-*, ::before, ::after { box-sizing: inherit; }
+html {
+    box-sizing: border-box;
+}
+
+*,
+ ::before,
+ ::after {
+    box-sizing: inherit;
+}
 
 :root {
     --hlavni-barva: #F03000
@@ -8,6 +15,14 @@ html { box-sizing: border-box; }
 body {
     font-family: 'Montserrat', serif;
     font-weight: 600;
-    margin: 0 20px;
+    margin: 0 1rem;
 }
 
+footer {
+    background-color: rgb(72, 72, 72);
+    padding: 1rem;
+    color: white;
+    font-size: 0.8rem;
+    text-align: center;
+    margin-top: 2rem;
+}

@@ -5,16 +5,16 @@ html { box-sizing: border-box; }
     color: var(--hlavni-barva);
     text-align: center;
 }
-.hlavicka_jmeno {
-    font-size: 2.2rem;
-    font-weight: 700;
-    margin-bottom: 1rem;
+.hlavicka__logo {
+    width: 200px;
+    height: auto;
+    margin: 1.5rem;
 }
 .hlavicka__menu {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin-bottom: 1rem;
+    margin-bottom: 1.5rem;
 }
 .hlavicka__menu__polozka {
     text-decoration: none;
