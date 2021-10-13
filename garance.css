@@ -1,11 +1,18 @@
-html { box-sizing: border-box; }
-*, ::before, ::after { box-sizing: inherit; }
+html {
+    box-sizing: border-box;
+}
+
+*,
+ ::before,
+ ::after {
+    box-sizing: inherit;
+}
 
 .garance {
     margin: 2rem 0;
 }
 
-.garance__polozka > img {
+.garance__polozka>img {
     margin: 1rem auto;
     position: absolute;
     left: 2.75rem;
@@ -25,4 +32,35 @@ html { box-sizing: border-box; }
 
 .garance__polozka__popis {
     font-size: 0.9rem;
+}
+
+@media (min-width: 650px) {
+    .garance {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: repeat(2, 180px);
+        gap: 1.2rem;
+        text-align: center;
+        margin: 2.5rem 0;
+    }
+    .garance__polozka>img {
+        margin: 0;
+        position: initial;
+        transform: translateX(0);
+        height: 50px;
+    }
+    .garance__polozka {
+        padding: 1.2rem;
+        margin-bottom: 0;
+        position: initial;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .garance__polozka__nazev {
+        font-size: 1.1rem;
+    }
+    .garance__polozka__popis {
+        margin: 0;
+    }
 }
