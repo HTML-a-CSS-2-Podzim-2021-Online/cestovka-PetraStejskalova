@@ -62,3 +62,16 @@ html {
         height: auto;
     }
 }
+
+@media (min-width: 900px) {
+    .hlavicka {
+        margin: 2.5rem 0;
+    }
+    .hlavicka__menu {
+        max-width: 440px;
+    }
+    .hlavicka__menu__polozka {
+        height: 4rem;
+        font-size: 1.1rem;
+    }
+}
